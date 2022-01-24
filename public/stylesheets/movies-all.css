@@ -1,0 +1,84 @@
+body {
+  font-family: 'Mukta', sans-serif;
+  background-color: rgb(244, 239, 235);
+  color: rgb(68, 33, 17);
+}
+
+h2 {
+  background-color: rgb(244, 239, 235);;
+  font-size: 2rem;
+  color: rgb(68, 33, 17);
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.movie_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+  width: 95vw;
+}
+
+#genre_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: auto;
+}
+
+.movie_genre{
+  color: rgb(68, 33, 17);
+  font-size: 20px;
+  font-style: italic;
+  text-align: right;
+  min-width: 120px;
+  width: 120px;
+  margin: 15px;
+  padding: 5px;
+}
+
+img {
+  height: 13rem;
+  margin-right: 10px;
+}
+
+/* thead th:nth-child(2) {
+  width: 30%;
+}
+
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 10%;
+}
+
+thead th:nth-child(5) {
+  width: 20%;
+} */
+
+/* td {
+  align-items: flex-start;
+  font-size: 1.25rem;
+}
+
+th, td {
+  padding: 0 1rem;
+} */
+
+/*
+@media (max-width: 600px) {
+  .movie_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    height: 4rem
+  }
+
+} */

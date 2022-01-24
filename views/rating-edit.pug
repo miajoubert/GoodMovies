@@ -1,0 +1,18 @@
+extends layout-nav
+
+append head
+    link(rel='stylesheet' href='/stylesheets/rating.css')
+
+block content
+  div
+    if errors
+      p#errors The following error(s) occurred:
+        ul#errors
+          each error in errors
+            li= error
+  .rating-form-edit
+    h2 Edit your rating:
+    form(method="post" action=`/ratings/${rating.id}/edit`)
+      input(type="hidden" name="_csrf" value=csrfToken)
+      input(type="text" id="rating_input" name="rating" value=rating.rating)
+      button(type="submit" id='rating_button') Edit Rating
