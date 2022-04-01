@@ -33,7 +33,7 @@ const store = new SequelizeStore({ db: sequelize });
 app.use(
   session({
     name: 'goodMovies.sid',
-    secret: sessionSecret,
+    secret: 'f1f079b1-68fe-4324-8010-0a5cff63a999',
     store,
     resave: false,
     saveUninitialized: false,
