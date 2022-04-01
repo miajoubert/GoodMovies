@@ -5,7 +5,6 @@ module.exports = {
     /*
       Add altering commands here.
       Return a promise to correctly handle asynchronicity.
-
       Example:
       */
     return queryInterface.bulkInsert('Movies', [
@@ -70,7 +69,7 @@ module.exports = {
         director: "George Lucas",
         main_actors: "Hayden Christensen, Natalie Portman, Ewan McGregor",
         release_year: "2005",
-        cover: "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/ab770742e03f7cdeebe9e81aec488af8_98143a98-2c08-4d9e-9956-38dce70c738d_400x.jpg?v=1573591438",
+        cover: "https://m.media-amazon.com/images/I/71WgjTKJ00L._AC_SY679_.jpg",
         summary: "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -312,7 +311,7 @@ module.exports = {
         director: "Bill Dubuque",
         main_actors: "Ben Affleck, Anna Kendrick, J.K. Simmons",
         release_year: "2016",
-        cover: "https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/the-accountant-poster0.jpg?itok=Vabm1LZU",
+        cover: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5709/5709412_so.jpg",
         summary: "As a math savant uncooks the books for a new client, the Treasury Department closes in on his activities, and the body count starts to rise.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -345,7 +344,7 @@ module.exports = {
         director: "Christopher Nolan",
         main_actors: "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine",
         release_year: "2008",
-        cover: "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
         summary: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -356,7 +355,7 @@ module.exports = {
         director: "Christopher Nolan",
         main_actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Ken Watanabe",
         release_year: "2010",
-        cover: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://cdn.shopify.com/s/files/1/1416/8662/products/inception_2010_advance_uk_original_film_art_1200x.jpg?v=1612332302",
         summary: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -367,7 +366,7 @@ module.exports = {
         director: "Peter Jackson",
         main_actors: "Elijah Wood, Viggo Mortensen, Ian McKellen, Orlando Bloom",
         release_year: "2003",
-        cover: "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/I/71X6YzwV0gL._AC_SL1024_.jpg",
         summary: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -378,7 +377,7 @@ module.exports = {
         director: "Peter Jackson",
         main_actors: "Elijah Wood, Ian McKellen, Orlando Bloom, Sean Bean",
         release_year: "2001",
-        cover: "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/I/81EBp0vOZZL._AC_SY741_.jpg",
         summary: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -389,7 +388,7 @@ module.exports = {
         director: "Peter Jackson",
         main_actors: "Elijah Wood, Ian McKellen, Viggo Mortensen, Orlando Bloom",
         release_year: "2002",
-        cover: "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/I/81eqQvveI6L._AC_SY679_.jpg",
         summary: "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -400,7 +399,7 @@ module.exports = {
         director: "Ridley Scott",
         main_actors: "Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed",
         release_year: "2000",
-        cover: "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://play-lh.googleusercontent.com/BFmxSPfvjeuQtqbGn6gNBet8nEm8jc7tQIBKfMMVS4TmstdP1brZIc3Lj0yM-HApGPKVMvv04pYD8bbNgrg=w400-h600-rw",
         summary: "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -411,8 +410,19 @@ module.exports = {
         director: "Bob Persichetti",
         main_actors: "Shameik Moore, Jake Johnson, Hailee Steinfeld, Mahershala Ali",
         release_year: "2018",
-        cover: "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/I/71U93FWDLTS._AC_SY679_.jpg",
         summary: "Teen Miles Morales becomes the Spider- Man of his universe, and must join with five spider - powered individuals from other dimensions to stop a threat for all realities.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        movie_title: "Black Panther",
+        genre: "Action",
+        director: "Ryan Coogler",
+        main_actors: "Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o",
+        release_year: "2018",
+        cover: "https://m.media-amazon.com/images/I/A1PaCX4oXjL._AC_SY679_.jpg",
+        summary: "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -422,7 +432,7 @@ module.exports = {
         director: "Christopher Nolan",
         main_actors: "Christian Bale, Michael Caine, Ken Watanabe, Liam Neeson",
         release_year: "2005",
-        cover: "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
         summary: "After training with his mentor, Batman begins his fight to free crime - ridden Gotham City from corruption.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -444,7 +454,7 @@ module.exports = {
         director: "Ron Howard",
         main_actors: "Daniel Brühl, Chris Hemsworth, Olivia Wilde, Alexandra Maria Lara",
         release_year: "2013",
-        cover: "https://m.media-amazon.com/images/M/MV5BOWEwODJmZDItYTNmZC00OGM4LThlNDktOTQzZjIzMGQxODA4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://movieposters2.com/images/1780486-b.jpg",
         summary: "The merciless 1970s rivalry between Formula One rivals James Hunt and Niki Lauda.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -455,7 +465,7 @@ module.exports = {
         director: "James Mangold",
         main_actors: "Matt Damon, Christian Bale, Jon Bernthal, Caitriona Balfe",
         release_year: "2019",
-        cover: "https://m.media-amazon.com/images/M/MV5BM2UwMDVmMDItM2I2Yi00NGZmLTk4ZTUtY2JjNTQ3OGQ5ZjM2XkEyXkFqcGdeQXVyMTA1OTYzOTUx._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BM2UwMDVmMDItM2I2Yi00NGZmLTk4ZTUtY2JjNTQ3OGQ5ZjM2XkEyXkFqcGdeQXVyMTA1OTYzOTUx._V1_.jpg",
         summary: "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -466,7 +476,7 @@ module.exports = {
         director: "George Miller",
         main_actors: "Tom Hardy, Charlize Theron, Nicholas Hoult, Zoë Kravitz",
         release_year: "2019",
-        cover: "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
         summary: "In a post - apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -477,150 +487,150 @@ module.exports = {
         director: "James McTeigue",
         main_actors: "Hugo Weaving, Natalie Portman, Rupert Graves, Stephen Rea",
         release_year: "2005",
-        cover: "https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://images.moviesanywhere.com/c2c7c4ce4949e34d671b0c843f7e10d5/ddfa7bb3-ad2a-4d74-9ab4-8cd6cef6b24b.jpg",
         summary: "In a future British tyranny, a shadowy freedom fighter, known only by the alias of 'V,' plots to overthrow it with the help of a young woman.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Hamilton",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Thomas Kail",
         main_actors: "Lin-Manuel Miranda, Phillipa Soo, Leslie Odom Jr., Renée Elise Goldsberry",
         release_year: "2020",
-        cover: "https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://upload.wikimedia.org/wikipedia/en/8/83/Hamilton-poster.jpg",
         summary: "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Joker",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Todd Phillips",
         main_actors: "Joaquin Phoenix, Robert De Niro, Zazie Beetz, Frances Conroy",
         release_year: "2019",
-        cover: "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
         summary: "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "The Shawshank Redemption",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Frank Darabont",
         main_actors: "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
         release_year: "1994",
-        cover: "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://ae01.alicdn.com/kf/Hc23f6083c0c04635a5b778ebbf50a5a83/The-Shawshank-Redemption-Movie-Propaganda-Vintage-Retro-Kraft-Poster-Decorative-DIY-Wall-Canvas-Sticker-Home-Bar.jpg_Q90.jpg_.webp",
         summary: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Pulp Fiction",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Quentin Tarantino",
         main_actors: "John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis",
         release_year: "1994",
-        cover: "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
         summary: "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        movie_title: "Schindler’s List",
-        genre: "Top-Ten",
+        movie_title: "Schindler's List",
+        genre: "Top Movies",
         director: "Steven Spielberg",
         main_actors: "Liam Neeson, Ralph Fiennes, Ben Kingsley, Caroline Goodall",
         release_year: "1993",
-        cover: "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://www.ubuy.co.id/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFPWU1vNjk0K0wuX0FDX1NMMTUwMF8uanBn.jpg",
         summary: "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Fight Club",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "David Fincher",
         main_actors: "Brad Pitt, Edward Norton, Meat Loaf, Zach Grenier",
         release_year: "1993",
-        cover: "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
         summary: "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Forrest Gump",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Robert Zemeckis",
         main_actors: "Tom Hanks, Robin Wright, Gary Sinise, Sally Field",
         release_year: "1994",
-        cover: "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY98_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/I/61oZBKzdPVL._AC_SY679_.jpg",
         summary: "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Interstellar",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Christopher Nolan",
         main_actors: "Matthew McConaughey, Anne Hathaway, Jessica Chastain, Mackenzie Foy",
         release_year: "2014",
-        cover: "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
         summary: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Parasite",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Bong Joon Ho",
         main_actors: "Kang-ho Song, Sun-kyun Lee, Yeo-jeong Cho, Woo-sik Choi",
         release_year: "2019",
-        cover: "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/I/91sustfojBL._AC_SL1500_.jpg",
         summary: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "The Pianist",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Roman Polanski",
         main_actors: "Kang-ho Song, Sun-kyun Lee, Yeo-jeong Cho, Woo-sik Choi",
         release_year: "2002",
-        cover: "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY98_CR2,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
         summary: "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Cinema Paradiso",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Giuseppe Tornatore",
         main_actors: "Philippe Noiret, Enzo Cannavale, Antonella Attili, Isa Danieli",
         release_year: "1988",
-        cover: "https://m.media-amazon.com/images/M/MV5BM2FhYjEyYmYtMDI1Yy00YTdlLWI2NWQtYmEzNzAxOGY1NjY2XkEyXkFqcGdeQXVyNTA3NTIyNDg@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BM2FhYjEyYmYtMDI1Yy00YTdlLWI2NWQtYmEzNzAxOGY1NjY2XkEyXkFqcGdeQXVyNTA3NTIyNDg@._V1_.jpg",
         summary: "A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema's projectionist.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Back to the Future",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Robert Zemeckis",
         main_actors: "Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover",
         release_year: "1985",
-        cover: "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/I/71BPuv+iRbL._AC_SY741_.jpg",
         summary: "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         movie_title: "Memento",
-        genre: "Top-Ten",
+        genre: "Top Movies",
         director: "Christopher Nolan",
         main_actors: "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
         release_year: "2000",
-        cover: "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+        cover: "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
         summary: "A man with short-term memory loss attempts to track down his wife's murderer.",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -632,7 +642,6 @@ module.exports = {
     /*
       Add reverting commands here.
       Return a promise to correctly handle asynchronicity.
-
       Example:
       */
     return queryInterface.bulkDelete('Movies', null, {});
